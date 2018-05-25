@@ -318,7 +318,7 @@ function s:makeCurrentBehaviorSet()
   elseif modified
     let behavs = copy(exists('g:acp_behavior[&filetype]')
           \           ? g:acp_behavior[&filetype]
-          \           : g:acp_behavior['*'])
+          \           : [])
   else
     return []
   endif

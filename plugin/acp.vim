@@ -27,7 +27,11 @@ endfunction
 "
 function s:makeDefaultBehavior()
   let behavs = {
-        \   '*'      : [],
+        \   'c'      : [],
+        \   'cpp'    : [],
+        \   'h'      : [],
+        \   'cxx'    : [],
+        \   'hpp'    : [],
         \   'ruby'   : [],
         \   'python' : [],
         \   'perl'   : [],
